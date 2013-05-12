@@ -1,4 +1,4 @@
-name 'chef-rails-database'
+name 'chef-database'
 
 depends 'percona'
 depends 'database'
