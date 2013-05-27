@@ -1,5 +1,5 @@
 name 'chef-rails-database'
-version '0.0.1'
+version '0.0.2'
 
 depends 'percona'
 depends 'database'
