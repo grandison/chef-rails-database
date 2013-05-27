@@ -5,7 +5,7 @@ include_recipe 'percona::client'
 include_recipe 'percona::server'
 include_recipe 'percona::backup'
 
-chef_gem 'mysql'
+gem 'mysql'
 
 mysql_connection_info = { :host     => node[:database][:host],
                           :username => 'root',
