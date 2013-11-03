@@ -4,7 +4,6 @@ include_recipe 'percona::package_repo'
 include_recipe 'percona::client'
 include_recipe 'percona::server'
 include_recipe 'percona::backup'
-include_recipe 'database::mysql'
 
 gem_package 'mysql'
 
